@@ -12,10 +12,11 @@ const Banner = () => {
           "url(https://i.ibb.co/j3kM8n9/Gradient-background.png)",
       }}
     >
+        <img className='hidden md:block -bottom-5 absolute' src={vector} alt="" />
 <div className='container'>
-<div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 text-start px-4 md:ml-24">
+<div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 text-start px-4 md:pl-24">
     <div className="">
-      <h1 style={{ fontFamily: 'Poppins, sans-serif' }} className=" mt-20 md:mb-5 text-2xl leading-normal md:leading-tight md:text-[58px] font-bold">Find  <span className=" bg-gradient-to-r from-[#0076CE] to-[#9400D3] bg-clip-text text-transparent">Partners</span> (CAs) available online</h1>
+      <h1 className=" mt-20 md:mb-5 text-2xl leading-normal md:leading-tight md:text-[58px] font-bold">Find  <span className=" bg-gradient-to-r from-[#0076CE] to-[#9400D3] bg-clip-text text-transparent">Partners</span> (CAs) available online</h1>
       <p className=" mb-5 mb:mb-[60px] text-sm md:text-lg mt-5">CONNECT with us where your services are listed and visible to a myriad of businesses seeking CA’s for compliance support</p>
       <div className="flex relative justify-center">
         <input type="text" placeholder="Search by name" className="input input-bordered w-full pr-16" /> 
@@ -29,7 +30,7 @@ const Banner = () => {
     </div>
   </div>
 </div>
-<img className='hidden md:block bottom-0 absolute h-fit ' src={vector} alt="" />
+
   </div>
   );
 };

@@ -72,7 +72,7 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1"></ul>
         </div>
-        <div style={{ fontFamily: 'Poppins, sans-serif' }} className="navbar-end">
+        <div className="navbar-end">
           <div className="hidden md:block ">
           <div className="flex gap-4">
             <button className="btn rounded-md text-base border-2 text-[#0076CE] border-[#0076CE] hover:bg-[#0076CE] hover:text-white">
